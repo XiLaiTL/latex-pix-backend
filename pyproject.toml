@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "latex-pix-backend"
+version = "0.1.0"
+description = ""
+authors = ["XiLaiTL <xilaitl@qq.com>"]
+readme = "README.md"
+packages = [{include = "latex_pix"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+transformers = "^4.47.1"
+pillow = "^11.0.0"
+grpcio = "^1.68.1"
+google-api-python-client = "^2.155.0"
+modelscope = "^1.21.0"
+torch = "2.1.0"
+numpy = "1.26.4"
+pyinstaller = "^6.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
